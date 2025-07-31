@@ -57,23 +57,14 @@ p {
 
 ul, ol {
   margin-left: 2rem;
-  /*margin-left: 20px; */
 }
 
 li {
   margin-bottom: 0.5rem;
 }
 
-.tiramisu {
-  width: 250px;
-  height: auto;
-  max-width: 250px;
-  border: 2px solid #ccc;
-}
-
 figure {
   margin: 1rem 0;
-  /* margin: 20px 0; */
   text-align: center;
 }
 
@@ -129,17 +120,12 @@ input {
 } */
 
 /* Rating Section Styles */
-.rate {
-  color: darkred;
-  font-weight: bold;
-}
-
 .rating-section {
   flex: 1 1 300px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
   border-radius: 8px;
-  border: 1px solid #54161E;
+  border: 1px solid black;
 
   /* NEW centering rules */
   display: flex;
@@ -204,7 +190,7 @@ input {
   border-radius: 4px;
 }
 
-.directions/* -and-about */{
+.directions-and-about {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -212,7 +198,7 @@ input {
   justify-content: space-between;
 }
 
-.directions-box,/* .about-box */{
+.directions-box, .about-box {
   flex: 1 1 300px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
@@ -220,7 +206,7 @@ input {
   border: 1px solid #54161E;
 }
 
-/*.about-box {
+.about-box {
   text-align: center;
 }
 
@@ -230,10 +216,4 @@ input {
   border-radius: 8px;
   border: 1px solid #54161E;
   margin-top: 1rem;
-}*/
-
-.footer-note {
-  text-align: left;
-  font-size: 0.9rem;
-  margin-left: 1rem;
 }
